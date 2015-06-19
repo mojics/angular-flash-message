@@ -1,0 +1,27 @@
+{
+  "name": "angular-flash-message",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ronaldallanmojica/angular-flash-message",
+  "authors": [
+    "Ronald Allan Mojica"
+  ],
+  "description": "Angular Flash - implementation of flash mesasge",
+  "main": ["flash.directive.js","flash.factory.js"],
+  "keywords": [
+    "angular",
+    "modiles",
+    "angular",
+    "flash"
+  ],
+    "dependencies": {
+    "angular": "~1.3.15"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
