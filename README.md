@@ -14,7 +14,7 @@ angular.module('yourModule', ['angular-flash'])
 .controller('YourController', function($scope, $flash) {
   $scope.save = function() {
     // … save the product
-    $flash('FLASH Message !!!');
+    $flash({message: 'FLASH Message !!!', type: 'warning'});
   };
 });
 ```
