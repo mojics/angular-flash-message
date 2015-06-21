@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "homepage": "https://github.com/ronaldallanmojica/angular-flash-message",
   "authors": [
-    "Ronald Allan Mojica"
+    "Ronald Allan Mojica "
   ],
   "description": "Angular Flash - implementation of flash mesasge",
   "main": ["flash.directive.js","flash.factory.js"],
