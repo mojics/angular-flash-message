@@ -16,6 +16,10 @@ angular.module('yourModule', ['angular-flash'])
     // … save the product
     $flash({message: 'FLASH Message !!!', type: 'warning'});
   };
+
+  $scope.hideMessage = function(){
+  	$flash.hide();
+	}
 });
 ```
 
@@ -28,7 +32,7 @@ But you have to put first the Angular flash directive, insert this code snippet 
 ## Supported classes
 
   * Error
-  *  Warning
+  * Warning
   * Success
 
 
