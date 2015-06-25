@@ -14,7 +14,7 @@ angular.module('yourModule', ['angular-flash'])
 .controller('YourController', function($scope, $flash) {
   $scope.save = function() {
     // … save the product
-    $flash({message: 'FLASH Message !!!', type: 'warning'});
+    $flash({message: 'This is a flah message !!!', type: 'warning'});
   };
 
   $scope.hideMessage = function(){
@@ -23,12 +23,13 @@ angular.module('yourModule', ['angular-flash'])
 });
 ```
 
-But you have to put first the Angular flash directive, insert this code snippet anywhere on your AngularJS App:
+You also need to insert Angular flash directive html code  on your AngularJS application:
 
 
 ```javascript
 <angular-flash></angular-flash>
 ```
+
 ## Supported classes
 
   * Error
