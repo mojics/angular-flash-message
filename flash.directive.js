@@ -7,9 +7,7 @@ angular.module('angularFlash',[]);
 
   function AngularFlash() {
     return {
-      scope: {
-        text: '@'        
-      },
+      scope: {},
       restrict: 'E',
       replace: true,
       template: '<div class="angular-flash {{type()}}" ng-show="showFlag() === true">{{message()}}</div>',
