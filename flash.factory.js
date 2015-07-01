@@ -1,3 +1,8 @@
+/**
+ * $flash
+ * @param  {[type]} app [description]
+ * @return {[type]}     [description]
+ */
 (function(app) {
 'use strict';
     
@@ -13,6 +18,7 @@
       isShown: function(){
         return this.showFlag;
       },
+
       show: function(opts){
         if(opts && opts.hasOwnProperty('message')){
           this.message = opts.message;

@@ -15,7 +15,6 @@ angular.module('angularFlash',[]);
     };
   }
 
-
   function FlashCtrl($scope, $attrs, $flash){
     $scope.message = function(){
       return $flash.message;
@@ -33,7 +32,4 @@ angular.module('angularFlash',[]);
       $flash.hide();
     });
   }
-
-  
-
 })(angular.module('angularFlash'));
